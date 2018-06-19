@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!--CONFIGURACIÓN VISTAS GET -->
+<routes>
+    <login form="login.html">login</login>
+    <home form="/home.php">Home</home>
+        <!--VENTAS -->
+    <puntoventa form="/frmPuntoVenta.html">punto-venta</puntoventa>
+    <ventadiaria form="/frmVentasDiaria.html">ventas-diarias</ventadiaria>
+        <!--COMPRAS -->
+    <sistemacompra form="/frmPuntoCompra.html">sistema-compra</sistemacompra>
+    <compradiaria form="/frmComprasDiarias.html">compras-diarias</compradiaria>
+    <reportecompras form="/frmReporteCompras.html">reporte-compras</reportecompras>
+        <!--CAJA -->
+    <aperturacaja form="/frmAperturaCaja.html">apertura-acaja</aperturacaja>
+    <cortecaja form="/frmCorteCaja.html">corte-caja</cortecaja>
+        <!--ADMIN PRODUCTOS -->
+    <productos form="/frmProducto.html">productos</productos>
+    <agregarProducto form="/frmAgregarProducto.html">frmAgregarProducto</agregarProducto>
+    <consultarProducto form="/frmConsultarProducto.html">frmAgregarProducto</consultarProducto>
+    <reporteProducto form="/frmReporteProducto.html">frmAgregarProducto</reporteProducto>
+        <!--ADMIN MARCA PRODUCTO -->
+    <marcas form="/frmMarca.html">marcas</marcas>
+    <agregarMarca form="/frmAgregarMarca.html">frmAgregarMarca</agregarMarca>
+    <consultarMarca form="/frmConsultarMarca.html">frmAgregarMarca</consultarMarca>
+    <reporteMarca form="/frmReporteMarca.html">frmAgregarMarca</reporteMarca>
+        <!--ADMIN CATEGORIA PRODUCTO -->
+    <categorias form="/frmCategoria.html">categorias</categorias>
+    <agregarCategoria form="/frmAgregarCategoria.html">frmAgregarCategoria</agregarCategoria>
+    <consultarCategoria form="/frmConsultarCategoria.html">frmAgregarCategoria</consultarCategoria>
+    <reporteCategoria form="/frmReporteCategoria.html">frmAgregarCategoria</reporteCategoria>
+        <!--ADMIN SUCURSALES -->
+    <sucursales form="/frmSucursal.html">sucursales</sucursales>
+    <agregarSucursal form="/frmAgregarSucursal.html">frmAgregarSucursal</agregarSucursal>
+    <consultarSucursal form="/frmConsultarSucursal.html">frmAgregarSucursal</consultarSucursal>
+    <reporteSucursal form="/frmReporteSucursal.html">frmAgregarSucursal</reporteSucursal>
+        <!--ADMIN CAJAS -->
+    <cajas form="/frmCaja.html">cajas</cajas>
+    <agregarCaja form="/frmAgregarCaja.html">frmAgregarCaja</agregarCaja>
+    <reporteCaja form="/frmReporteCaja.html">frmReporteCaja</reporteCaja>
+        <!--ADMIN EMPLEADOS -->
+    <empleados form="/frmEmpleado.html">empleados</empleados>
+    <agregarEmpleado form="/frmAgregarEmpleado.html">frmAgregarEmpleado</agregarEmpleado>
+    <consultarEmpleado form="/frmConsultarEmpleado.html">frmConsultarEmpleado</consultarEmpleado>
+        <!--ADMIN CLIENTES -->
+    <clientes form="/frmCliente.html">clientes</clientes>
+    <agregarCliente form="/frmAgregarCliente.html">frmAgregarCliente</agregarCliente>
+    <consultarCliente form="/frmConsultarCliente.html">frmAgregarCliente</consultarCliente>
+    <reporteCliente form="/frmReporteCliente.html">frmAgregarCliente</reporteCliente>
+        <!--ADMIN PROVEEDORES -->
+    <proveedores form="/frmProveedor.html">proveedores</proveedores>
+    <agregarProveedor form="/frmAgregarProveedor.html">frmAgregarProveedor</agregarProveedor>
+    <consultarProveedor form="/frmConsultarProveedor.html">frmAgregarProveedor</consultarProveedor>
+    <reporteProveedor form="/frmReporteProveedor.html">frmAgregarProveedor</reporteProveedor>
+        <!--FORM ERRORES -->
+    <err404 form="/frm404.html">error404</err404>
+        <!--FORM HOME-->
+    <bienvenido form="/frmHome.html">home</bienvenido>
+</routes>
